@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\config.h" />
+    <ClInclude Include="src\elp\elp.h" />
+    <ClInclude Include="src\libnova\aberration.h" />
+    <ClInclude Include="src\libnova\airmass.h" />
+    <ClInclude Include="src\libnova\angular_separation.h" />
+    <ClInclude Include="src\libnova\apparent_position.h" />
+    <ClInclude Include="src\libnova\asteroid.h" />
+    <ClInclude Include="src\libnova\comet.h" />
+    <ClInclude Include="src\libnova\constellation.h" />
+    <ClInclude Include="src\libnova\dynamical_time.h" />
+    <ClInclude Include="src\libnova\earth.h" />
+    <ClInclude Include="src\libnova\elliptic_motion.h" />
+    <ClInclude Include="src\libnova\heliocentric_time.h" />
+    <ClInclude Include="src\libnova\hyperbolic_motion.h" />
+    <ClInclude Include="src\libnova\julian_day.h" />
+    <ClInclude Include="src\libnova\jupiter.h" />
+    <ClInclude Include="src\libnova\libnova.h" />
+    <ClInclude Include="src\libnova\ln_types.h" />
+    <ClInclude Include="src\libnova\lunar.h" />
+    <ClInclude Include="src\libnova\mars.h" />
+    <ClInclude Include="src\libnova\mercury.h" />
+    <ClInclude Include="src\libnova\neptune.h" />
+    <ClInclude Include="src\libnova\nutation.h" />
+    <ClInclude Include="src\libnova\parabolic_motion.h" />
+    <ClInclude Include="src\libnova\parallax.h" />
+    <ClInclude Include="src\libnova\pluto.h" />
+    <ClInclude Include="src\libnova\precession.h" />
+    <ClInclude Include="src\libnova\proper_motion.h" />
+    <ClInclude Include="src\libnova\refraction.h" />
+    <ClInclude Include="src\libnova\rise_set.h" />
+    <ClInclude Include="src\libnova\saturn.h" />
+    <ClInclude Include="src\libnova\sidereal_time.h" />
+    <ClInclude Include="src\libnova\solar.h" />
+    <ClInclude Include="src\libnova\transform.h" />
+    <ClInclude Include="src\libnova\uranus.h" />
+    <ClInclude Include="src\libnova\utility.h" />
+    <ClInclude Include="src\libnova\venus.h" />
+    <ClInclude Include="src\libnova\vsop87.h" />
+    <ClInclude Include="src\lunar-priv.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\aberration.c" />
+    <ClCompile Include="src\airmass.c" />
+    <ClCompile Include="src\angular_separation.c" />
+    <ClCompile Include="src\apparent_position.c" />
+    <ClCompile Include="src\asteroid.c" />
+    <ClCompile Include="src\comet.c" />
+    <ClCompile Include="src\constellation.c" />
+    <ClCompile Include="src\dynamical_time.c" />
+    <ClCompile Include="src\earth.c" />
+    <ClCompile Include="src\elliptic_motion.c" />
+    <ClCompile Include="src\elp\elp1.c" />
+    <ClCompile Include="src\elp\elp10.c" />
+    <ClCompile Include="src\elp\elp11.c" />
+    <ClCompile Include="src\elp\elp12.c" />
+    <ClCompile Include="src\elp\elp13.c" />
+    <ClCompile Include="src\elp\elp14.c" />
+    <ClCompile Include="src\elp\elp15.c" />
+    <ClCompile Include="src\elp\elp16.c" />
+    <ClCompile Include="src\elp\elp17.c" />
+    <ClCompile Include="src\elp\elp18.c" />
+    <ClCompile Include="src\elp\elp19.c" />
+    <ClCompile Include="src\elp\elp2.c" />
+    <ClCompile Include="src\elp\elp20.c" />
+    <ClCompile Include="src\elp\elp21.c" />
+    <ClCompile Include="src\elp\elp22.c" />
+    <ClCompile Include="src\elp\elp23.c" />
+    <ClCompile Include="src\elp\elp24.c" />
+    <ClCompile Include="src\elp\elp25.c" />
+    <ClCompile Include="src\elp\elp26.c" />
+    <ClCompile Include="src\elp\elp27.c" />
+    <ClCompile Include="src\elp\elp28.c" />
+    <ClCompile Include="src\elp\elp29.c" />
+    <ClCompile Include="src\elp\elp3.c" />
+    <ClCompile Include="src\elp\elp30.c" />
+    <ClCompile Include="src\elp\elp31.c" />
+    <ClCompile Include="src\elp\elp32.c" />
+    <ClCompile Include="src\elp\elp33.c" />
+    <ClCompile Include="src\elp\elp34.c" />
+    <ClCompile Include="src\elp\elp35.c" />
+    <ClCompile Include="src\elp\elp36.c" />
+    <ClCompile Include="src\elp\elp4.c" />
+    <ClCompile Include="src\elp\elp5.c" />
+    <ClCompile Include="src\elp\elp6.c" />
+    <ClCompile Include="src\elp\elp7.c" />
+    <ClCompile Include="src\elp\elp8.c" />
+    <ClCompile Include="src\elp\elp9.c" />
+    <ClCompile Include="src\heliocentric_time.c" />
+    <ClCompile Include="src\hyperbolic_motion.c" />
+    <ClCompile Include="src\julian_day.c" />
+    <ClCompile Include="src\jupiter.c" />
+    <ClCompile Include="src\lunar.c" />
+    <ClCompile Include="src\mars.c" />
+    <ClCompile Include="src\mercury.c" />
+    <ClCompile Include="src\misc.c" />
+    <ClCompile Include="src\neptune.c" />
+    <ClCompile Include="src\nutation.c" />
+    <ClCompile Include="src\parabolic_motion.c" />
+    <ClCompile Include="src\parallax.c" />
+    <ClCompile Include="src\pluto.c" />
+    <ClCompile Include="src\precession.c" />
+    <ClCompile Include="src\proper_motion.c" />
+    <ClCompile Include="src\refraction.c" />
+    <ClCompile Include="src\rise_set.c" />
+    <ClCompile Include="src\saturn.c" />
+    <ClCompile Include="src\sidereal_time.c" />
+    <ClCompile Include="src\solar.c" />
+    <ClCompile Include="src\transform.c" />
+    <ClCompile Include="src\uranus.c" />
+    <ClCompile Include="src\utility.c" />
+    <ClCompile Include="src\venus.c" />
+    <ClCompile Include="src\vsop87.c" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{71254f1a-c17a-4961-a59a-18659a5aa727}</ProjectGuid>
+    <RootNamespace>libnova</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;LIBNOVA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;LIBNOVA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;LIBNOVA_SHARED;_DEBUG;LIBNOVA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;LIBNOVA_SHARED;NDEBUG;LIBNOVA_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(ProjectDir)src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
