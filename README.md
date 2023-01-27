@@ -2,6 +2,8 @@
 
 LibNova is a general purpose, double precision, celestial mechanics, astrometry and astrodynamics library.
 
+[![MSBuild](https://github.com/laheller/libnova/actions/workflows/msbuild.yml/badge.svg?branch=main)](https://github.com/laheller/libnova/actions/workflows/msbuild.yml)
+
 # Features
 - Calculates planetary positions using VSOP87 theory.
 - Calculates lunar positions using ELP82 theory.
