@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="clibnova\clibnova.vcxproj" Id="e8f2c167-b3d8-4022-be1f-6c0ef09d07ee" />
+  <Project Path="LibNova/LibNova.csproj" Id="4378cec8-ad15-46c7-8c2f-f046c8013de3" />
+  <Project Path="Test/Test.csproj" Id="19622ea4-cd33-4a36-8061-60e5bba9a3a8" />
+</Solution>
