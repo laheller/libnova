@@ -21,7 +21,7 @@ env:
   BUILD_CONFIGURATION: Release
 
   # use this directory for the build output
-  BUILD_DIR: _build
+  BUILD_ARCH: x64
 
 permissions:
   contents: read
@@ -50,5 +50,5 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: libnova shared library (.dll)
-        path: ${{github.workspace}}/${{env.BUILD_DIR}}/bin/${{env.BUILD_CONFIGURATION}}/clibnova.*
+        path: ${{github.workspace}}\${{env.BUILD_ARCH}}\${{env.BUILD_CONFIGURATION}}/clibnova.*
         retention-days: 5
